@@ -1,0 +1,5 @@
+Documentation/
+*.sch-bak
+*.plt
+*.bck
+
