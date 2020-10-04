@@ -1,4 +1,4 @@
-18208820487420586
+18210422327270393
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -71182,6 +71182,13 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+ProjectFootprints
+ESP32-DEVKIT-V1
+
+
+0
+30
+30
 RF_Antenna
 Coilcraft_MA5532-AE_RFID
 RFID Transponder Coil

@@ -19,7 +19,7 @@ U 1 1 5F696FCA
 P 5250 4900
 F 0 "U2" H 5300 4850 50  0000 C CNN
 F 1 "ESP32-DevKit-Doit" V 5750 5650 50  0000 C CNN
-F 2 "" H 5250 4900 50  0001 C CNN
+F 2 "ProjectFootprints:ESP32-DEVKIT-V1" H 5250 4900 50  0001 C CNN
 F 3 "" H 5250 4900 50  0001 C CNN
 F 4 "6.00" H 5250 4900 50  0001 C CNN "Price"
 F 5 "Espressif" H 5250 4900 50  0001 C CNN "MFR"
@@ -1606,10 +1606,10 @@ PWM6
 NoConn ~ 9700 5850
 NoConn ~ 9700 5150
 $Comp
-L Connector_Generic:Conn_02x12_Odd_Even J?
+L Connector_Generic:Conn_02x12_Odd_Even J9
 U 1 1 5F95DFCD
 P 2600 7250
-F 0 "J?" H 2650 7850 50  0000 C CNN
+F 0 "J9" H 2650 7850 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 2650 6550 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 2600 7250 50  0001 C CNN
 F 3 "~" H 2600 7250 50  0001 C CNN
@@ -1617,10 +1617,10 @@ F 3 "~" H 2600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J8
 U 1 1 5F95F27A
 P 1150 6950
-F 0 "J?" H 1150 7150 50  0000 C CNN
+F 0 "J8" H 1150 7150 50  0000 C CNN
 F 1 "Conn_01x03" H 1150 6750 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 6950 50  0001 C CNN
 F 3 "~" H 1150 6950 50  0001 C CNN
@@ -1748,10 +1748,10 @@ GND
 Wire Wire Line
 	2000 7850 2400 7850
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J10
 U 1 1 5FFE5A31
 P 1150 7400
-F 0 "J?" H 1150 7600 50  0000 C CNN
+F 0 "J10" H 1150 7600 50  0000 C CNN
 F 1 "Conn_01x03" H 1150 7200 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 7400 50  0001 C CNN
 F 3 "~" H 1150 7400 50  0001 C CNN
@@ -1759,10 +1759,10 @@ F 3 "~" H 1150 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J11
 U 1 1 5FFE5EB2
 P 1150 7850
-F 0 "J?" H 1150 8050 50  0000 C CNN
+F 0 "J11" H 1150 8050 50  0000 C CNN
 F 1 "Conn_01x03" H 1150 7650 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 7850 50  0001 C CNN
 F 3 "~" H 1150 7850 50  0001 C CNN
