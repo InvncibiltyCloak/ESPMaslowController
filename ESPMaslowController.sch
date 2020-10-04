@@ -21,9 +21,9 @@ F 0 "U2" H 5300 4850 50  0000 C CNN
 F 1 "ESP32-DevKit-Doit" V 5750 5650 50  0000 C CNN
 F 2 "" H 5250 4900 50  0001 C CNN
 F 3 "" H 5250 4900 50  0001 C CNN
-F 4 "10.00" H 5250 4900 50  0001 C CNN "Price"
+F 4 "6.00" H 5250 4900 50  0001 C CNN "Price"
 F 5 "Espressif" H 5250 4900 50  0001 C CNN "MFR"
-F 6 "ESP32-DEVKITC-32D" H 5250 4900 50  0001 C CNN "MPN"
+F 6 "ESP32 DevKit v1" H 5250 4900 50  0001 C CNN "MPN"
 F 7 "https://www.aliexpress.com/item/4000111107743.html" H 5250 4900 50  0001 C CNN "BuyLink"
 	1    5250 4900
 	1    0    0    -1  
@@ -57,17 +57,6 @@ F 4 "HRS" H 5900 6250 50  0001 C CNN "MFR"
 F 5 "DM3AT-SF-PEJM5" H 5900 6250 50  0001 C CNN "MPN"
 F 6 "2.50" H 5900 6250 50  0001 C CNN "Price"
 	1    5900 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J8
-U 1 1 5F6AECD5
-P 1800 7200
-F 0 "J8" H 1800 7600 50  0000 C CNN
-F 1 "Conn_01x08" H 1800 6700 50  0001 C CNN
-F 2 "" H 1800 7200 50  0001 C CNN
-F 3 "~" H 1800 7200 50  0001 C CNN
-	1    1800 7200
 	1    0    0    -1  
 $EndComp
 Text Notes 6050 2850 0    50   ~ 0
@@ -104,115 +93,6 @@ Wire Wire Line
 	6400 3500 6950 3500
 Wire Wire Line
 	6950 3500 6950 3600
-$Comp
-L Connector_Generic:Conn_01x08 J9
-U 1 1 5F6B786E
-P 2350 7200
-F 0 "J9" H 2350 7600 50  0000 C CNN
-F 1 "Conn_01x08" H 2350 6700 50  0001 C CNN
-F 2 "" H 2350 7200 50  0001 C CNN
-F 3 "~" H 2350 7200 50  0001 C CNN
-	1    2350 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x08 J10
-U 1 1 5F6B7E81
-P 2850 7200
-F 0 "J10" H 2850 7600 50  0000 C CNN
-F 1 "Conn_01x08" H 2850 6700 50  0001 C CNN
-F 2 "" H 2850 7200 50  0001 C CNN
-F 3 "~" H 2850 7200 50  0001 C CNN
-	1    2850 7200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 6900 2150 6900
-Wire Wire Line
-	2050 6900 2050 7000
-Wire Wire Line
-	2050 7000 2150 7000
-Connection ~ 2050 6900
-Wire Wire Line
-	2050 7000 2050 7100
-Wire Wire Line
-	2050 7100 2150 7100
-Connection ~ 2050 7000
-Wire Wire Line
-	2050 7100 2050 7200
-Wire Wire Line
-	2050 7200 2150 7200
-Connection ~ 2050 7100
-Wire Wire Line
-	2050 7200 2050 7300
-Wire Wire Line
-	2050 7300 2150 7300
-Connection ~ 2050 7200
-Wire Wire Line
-	2050 7300 2050 7400
-Wire Wire Line
-	2050 7400 2150 7400
-Connection ~ 2050 7300
-Wire Wire Line
-	2050 7400 2050 7500
-Wire Wire Line
-	2050 7500 2150 7500
-Connection ~ 2050 7400
-Wire Wire Line
-	2050 7500 2050 7600
-Wire Wire Line
-	2050 7600 2150 7600
-Connection ~ 2050 7500
-$Comp
-L power:GND #PWR015
-U 1 1 5F6BCDD0
-P 2550 7700
-F 0 "#PWR015" H 2550 7450 50  0001 C CNN
-F 1 "GND" H 2550 7550 50  0000 C CNN
-F 2 "" H 2550 7700 50  0001 C CNN
-F 3 "" H 2550 7700 50  0001 C CNN
-	1    2550 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 7600 2550 7600
-Wire Wire Line
-	2550 7600 2550 7700
-Wire Wire Line
-	2650 7500 2550 7500
-Wire Wire Line
-	2550 7500 2550 7600
-Connection ~ 2550 7600
-Wire Wire Line
-	2650 7400 2550 7400
-Wire Wire Line
-	2550 7400 2550 7500
-Connection ~ 2550 7500
-Wire Wire Line
-	2650 7300 2550 7300
-Wire Wire Line
-	2550 7300 2550 7400
-Connection ~ 2550 7400
-Wire Wire Line
-	2550 7200 2550 7300
-Connection ~ 2550 7300
-Wire Wire Line
-	2650 7200 2550 7200
-Wire Wire Line
-	2650 7100 2550 7100
-Wire Wire Line
-	2550 7100 2550 7200
-Connection ~ 2550 7200
-Wire Wire Line
-	2650 7000 2550 7000
-Wire Wire Line
-	2550 7000 2550 7100
-Connection ~ 2550 7100
-Wire Wire Line
-	2650 6900 2550 6900
-Wire Wire Line
-	2550 6900 2550 7000
-Connection ~ 2550 7000
 Text Label 4650 6050 0    50   ~ 0
 SD_DI
 Text Label 4650 6450 0    50   ~ 0
@@ -351,18 +231,10 @@ Wire Wire Line
 	5000 3000 5000 3400
 Wire Wire Line
 	4550 3400 4550 3500
-Text Label 1300 6900 0    50   ~ 0
+Text Label 650  6850 0    50   ~ 0
 AUX1
-Text Label 1300 7000 0    50   ~ 0
-AUX2
-Text Label 1300 7100 0    50   ~ 0
-AUX3
 Wire Wire Line
-	1300 6900 1600 6900
-Wire Wire Line
-	1300 7000 1600 7000
-Wire Wire Line
-	1300 7100 1600 7100
+	650  6850 950  6850
 $Comp
 L Device:C C?
 U 1 1 5F774CC2
@@ -408,6 +280,7 @@ F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6700 1300 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NCP3063-D.PDF" H 6700 1300 50  0001 C CNN
 F 4 "ONSemi" H 6700 1300 50  0001 C CNN "MFR"
 F 5 "NCP3063DR2G" H 6700 1300 50  0001 C CNN "MPN"
+F 6 "0.89" H 6700 1300 50  0001 C CNN "Price"
 	1    6700 1300
 	1    0    0    -1  
 $EndComp
@@ -506,8 +379,11 @@ AR Path="/5F746CB5/5F774CFF" Ref="R?"  Part="1"
 AR Path="/5F774CFF" Ref="R1"  Part="1" 
 F 0 "R1" V 7130 650 50  0000 C CNN
 F 1 "0R15" V 7050 650 50  0000 C CNN
-F 2 "" V 6980 650 50  0001 C CNN
-F 3 "~" H 7050 650 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6980 650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" H 7050 650 50  0001 C CNN
+F 4 "Yageo" H 7050 650 50  0001 C CNN "MFR"
+F 5 "RL1206FR-070R15L" H 7050 650 50  0001 C CNN "MPN"
+F 6 "0.36" H 7050 650 50  0001 C CNN "Price"
 	1    7050 650 
 	0    1    1    0   
 $EndComp
@@ -524,8 +400,11 @@ AR Path="/5F746CB5/5F774D0B" Ref="R?"  Part="1"
 AR Path="/5F774D0B" Ref="R2"  Part="1" 
 F 0 "R2" V 9080 1400 50  0000 C CNN
 F 1 "10K" V 9000 1400 50  0000 C CNN
-F 2 "" V 8930 1400 50  0001 C CNN
-F 3 "~" H 9000 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 1400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9000 1400 50  0001 C CNN
+F 4 "Yageo" H 9000 1400 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9000 1400 50  0001 C CNN "MPN"
+F 6 "0.10" H 9000 1400 50  0001 C CNN "Price"
 	1    9000 1400
 	1    0    0    -1  
 $EndComp
@@ -534,19 +413,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 1050 7550 950 
 Connection ~ 7550 950 
-$Comp
-L Device:R R?
-U 1 1 5F774D14
-P 9000 1900
-AR Path="/5F746CB5/5F774D14" Ref="R?"  Part="1" 
-AR Path="/5F774D14" Ref="R3"  Part="1" 
-F 0 "R3" V 9080 1900 50  0000 C CNN
-F 1 "30K" V 9000 1900 50  0000 C CNN
-F 2 "" V 8930 1900 50  0001 C CNN
-F 3 "~" H 9000 1900 50  0001 C CNN
-	1    9000 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 1550 9000 1650
 Wire Wire Line
@@ -559,14 +425,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F774D1F
-P 9000 2150
+P 8200 2250
 AR Path="/5F746CB5/5F774D1F" Ref="#PWR?"  Part="1" 
 AR Path="/5F774D1F" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 9000 1900 50  0001 C CNN
-F 1 "GND" H 9000 2000 50  0000 C CNN
-F 2 "" H 9000 2150 50  0001 C CNN
-F 3 "" H 9000 2150 50  0001 C CNN
-	1    9000 2150
+F 0 "#PWR05" H 8200 2000 50  0001 C CNN
+F 1 "GND" H 8200 2100 50  0000 C CNN
+F 2 "" H 8200 2250 50  0001 C CNN
+F 3 "" H 8200 2250 50  0001 C CNN
+	1    8200 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -598,10 +464,10 @@ AR Path="/5F746CB5/5F774D31" Ref="L?"  Part="1"
 AR Path="/5F774D31" Ref="L1"  Part="1" 
 F 0 "L1" V 8000 1150 50  0000 C CNN
 F 1 "68u" V 8125 1150 50  0000 C CNN
-F 2 "Inductor_SMD:L_12x12mm_H6mm" H 8050 1150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2007131832_GLE-GCRH125-680MC_C439406.pdf" H 8050 1150 50  0001 C CNN
-F 4 "GCRH125-680MC" V 8050 1150 50  0001 C CNN "MPN"
-F 5 "GLE" V 8050 1150 50  0001 C CNN "MFR"
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 8050 1150 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NS12575T680MN%20&u=M" H 8050 1150 50  0001 C CNN
+F 4 "NS12575T680MN" V 8050 1150 50  0001 C CNN "MPN"
+F 5 "Taiyo Yuden" V 8050 1150 50  0001 C CNN "MFR"
 	1    8050 1150
 	0    1    -1   0   
 $EndComp
@@ -680,7 +546,7 @@ AR Path="/5F774D5C" Ref="C4"  Part="1"
 F 0 "C4" H 8325 1500 50  0000 L CNN
 F 1 "47u" H 8325 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8338 1250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MQHNNNE_C68361.pdf" H 8300 1400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_Spec.pdf" H 8300 1400 50  0001 C CNN
 F 4 "Samsung" H 8300 1400 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 8300 1400 50  0001 C CNN "MPN"
 F 6 "0.33" H 8300 1400 50  0001 C CNN "Price"
@@ -696,7 +562,7 @@ AR Path="/5F774D64" Ref="C5"  Part="1"
 F 0 "C5" H 8625 1500 50  0000 L CNN
 F 1 "47u" H 8625 1300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8638 1250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MQHNNNE_C68361.pdf" H 8600 1400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_Spec.pdf" H 8600 1400 50  0001 C CNN
 F 4 "Samsung" H 8600 1400 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 8600 1400 50  0001 C CNN "MPN"
 F 6 "0.33" H 8600 1400 50  0001 C CNN "Price"
@@ -709,19 +575,6 @@ Wire Wire Line
 	4900 1350 5150 1350
 Wire Wire Line
 	4700 850  5150 850 
-$Comp
-L power:+3V3 #PWR014
-U 1 1 5F8096D3
-P 2050 6800
-F 0 "#PWR014" H 2050 6650 50  0001 C CNN
-F 1 "+3V3" H 2050 6940 50  0000 C CNN
-F 2 "" H 2050 6800 50  0001 C CNN
-F 3 "" H 2050 6800 50  0001 C CNN
-	1    2050 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 6800 2050 6900
 $Comp
 L power:GND #PWR013
 U 1 1 5F816336
@@ -746,7 +599,7 @@ AR Path="/5F8446A2" Ref="C7"  Part="1"
 F 0 "C7" H 4275 3350 50  0000 L CNN
 F 1 "47u" H 4275 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4288 3100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL31A476MQHNNNE_C68361.pdf" H 4250 3250 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_Spec.pdf" H 4250 3250 50  0001 C CNN
 F 4 "Samsung" H 4250 3250 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 4250 3250 50  0001 C CNN "MPN"
 F 6 "0.33" H 4250 3250 50  0001 C CNN "Price"
@@ -938,9 +791,12 @@ L Device:LED D3
 U 1 1 606262F6
 P 9900 1850
 F 0 "D3" H 9900 1950 50  0000 C CNN
-F 1 "LED" H 9900 1750 50  0000 C CNN
-F 2 "" H 9900 1850 50  0001 C CNN
-F 3 "~" H 9900 1850 50  0001 C CNN
+F 1 "GRN" H 9900 1750 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 9900 1850 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" H 9900 1850 50  0001 C CNN
+F 4 "Lite-On" H 9900 1850 50  0001 C CNN "MFR"
+F 5 "LTST-C170KGKT" H 9900 1850 50  0001 C CNN "MPN"
+F 6 "0.35" H 9900 1850 50  0001 C CNN "Price"
 	1    9900 1850
 	0    -1   -1   0   
 $EndComp
@@ -950,8 +806,11 @@ U 1 1 60626A2C
 P 9900 1450
 F 0 "R5" V 9980 1450 50  0000 C CNN
 F 1 "1K" V 9900 1450 50  0000 C CNN
-F 2 "" V 9830 1450 50  0001 C CNN
-F 3 "~" H 9900 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9830 1450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9900 1450 50  0001 C CNN
+F 4 "Yageo" H 9900 1450 50  0001 C CNN "MFR"
+F 5 "RC0805FR-071KL" H 9900 1450 50  0001 C CNN "MPN"
+F 6 "0.10" H 9900 1450 50  0001 C CNN "Price"
 	1    9900 1450
 	1    0    0    -1  
 $EndComp
@@ -961,8 +820,11 @@ U 1 1 606271F0
 P 9900 1050
 F 0 "R4" V 9980 1050 50  0000 C CNN
 F 1 "1K" V 9900 1050 50  0000 C CNN
-F 2 "" V 9830 1050 50  0001 C CNN
-F 3 "~" H 9900 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9830 1050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9900 1050 50  0001 C CNN
+F 4 "Yageo" H 9900 1050 50  0001 C CNN "MFR"
+F 5 "RC0805FR-071KL" H 9900 1050 50  0001 C CNN "MPN"
+F 6 "0.10" H 9900 1050 50  0001 C CNN "Price"
 	1    9900 1050
 	1    0    0    -1  
 $EndComp
@@ -971,9 +833,12 @@ L Device:LED D4
 U 1 1 60627560
 P 10200 1850
 F 0 "D4" H 10200 1950 50  0000 C CNN
-F 1 "LED" H 10200 1750 50  0000 C CNN
-F 2 "" H 10200 1850 50  0001 C CNN
-F 3 "~" H 10200 1850 50  0001 C CNN
+F 1 "YLW" H 10200 1750 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Castellated" H 10200 1850 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf" H 10200 1850 50  0001 C CNN
+F 4 "Lite-On" H 10200 1850 50  0001 C CNN "MFR"
+F 5 "LTST-C171KSKT" H 10200 1850 50  0001 C CNN "MPN"
+F 6 "0.31" H 10200 1850 50  0001 C CNN "Price"
 	1    10200 1850
 	0    -1   -1   0   
 $EndComp
@@ -983,8 +848,11 @@ U 1 1 60627B4D
 P 10200 1450
 F 0 "R6" V 10280 1450 50  0000 C CNN
 F 1 "1K" V 10200 1450 50  0000 C CNN
-F 2 "" V 10130 1450 50  0001 C CNN
-F 3 "~" H 10200 1450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10130 1450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10200 1450 50  0001 C CNN
+F 4 "Yageo" H 10200 1450 50  0001 C CNN "MFR"
+F 5 "RC0805FR-071KL" H 10200 1450 50  0001 C CNN "MPN"
+F 6 "0.10" H 10200 1450 50  0001 C CNN "Price"
 	1    10200 1450
 	1    0    0    -1  
 $EndComp
@@ -1120,9 +988,9 @@ Text Label 10200 4350 2    50   ~ 0
 DIR2
 Text Label 10200 4450 2    50   ~ 0
 DIR3
-Text Label 10200 4850 2    50   ~ 0
+Text Label 8050 5450 0    50   ~ 0
 DIR4
-Text Label 10200 4950 2    50   ~ 0
+Text Label 8050 5550 0    50   ~ 0
 DIR5
 Wire Wire Line
 	9700 3750 10200 3750
@@ -1131,9 +999,9 @@ Wire Wire Line
 Wire Wire Line
 	9700 4450 10200 4450
 Wire Wire Line
-	9700 4850 10200 4850
+	8500 5450 8050 5450
 Wire Wire Line
-	9700 4950 10200 4950
+	8500 5550 8050 5550
 $Sheet
 S 1550 750  800  800 
 U 5F926A4C
@@ -1479,22 +1347,18 @@ Text Label 4700 3900 0    50   ~ 0
 AUX2
 Text Label 4700 4000 0    50   ~ 0
 AUX3
-Text Label 10200 5050 2    50   ~ 0
+Text Label 10200 4850 2    50   ~ 0
 AUX4
-Text Label 10200 5150 2    50   ~ 0
+Wire Wire Line
+	9700 4850 10200 4850
+Text Label 10200 4950 2    50   ~ 0
 AUX5
+Text Label 10200 5050 2    50   ~ 0
+AUX6
+Wire Wire Line
+	9700 4950 10200 4950
 Wire Wire Line
 	9700 5050 10200 5050
-Wire Wire Line
-	9700 5150 10200 5150
-Text Label 8050 5450 0    50   ~ 0
-AUX6
-Text Label 8050 5550 0    50   ~ 0
-AUX7
-Wire Wire Line
-	8500 5450 8050 5450
-Wire Wire Line
-	8500 5550 8050 5550
 Text Label 10200 5950 2    50   ~ 0
 PWM6
 Text Label 10200 6050 2    50   ~ 0
@@ -1594,22 +1458,12 @@ F 3 "" H 9700 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 3150 9700 3250
-Text Label 1300 7200 0    50   ~ 0
-AUX4
-Text Label 1300 7300 0    50   ~ 0
+Text Label 2100 7550 0    50   ~ 0
 AUX5
-Wire Wire Line
-	1600 7200 1300 7200
-Wire Wire Line
-	1600 7300 1300 7300
-Text Label 1300 7400 0    50   ~ 0
+Text Label 3200 7550 2    50   ~ 0
 AUX6
-Text Label 1300 7500 0    50   ~ 0
-AUX7
-Wire Wire Line
-	1600 7400 1300 7400
-Wire Wire Line
-	1600 7500 1300 7500
+Text Label 3200 7750 2    50   ~ 0
+PWM7
 Wire Wire Line
 	6900 650  6450 650 
 Wire Wire Line
@@ -1631,7 +1485,7 @@ L Device:D_TVS D1
 U 1 1 605EF6D0
 P 5150 1100
 F 0 "D1" H 5150 1200 50  0000 C CNN
-F 1 "D_TVS" H 5150 1000 50  0000 C CNN
+F 1 "26V7" H 5150 1000 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 5150 1100 50  0001 C CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 5150 1100 50  0001 C CNN
 F 4 "" H 5150 1100 50  0001 C CNN "Mfr"
@@ -1692,6 +1546,227 @@ Text Notes 10250 5550 0    50   ~ 0
 OC4A
 Text Notes 10250 5650 0    50   ~ 0
 OC3B
-NoConn ~ 9700 5850
 NoConn ~ 9700 6150
+$Comp
+L Device:R R?
+U 1 1 5F7BF536
+P 9000 1900
+AR Path="/5F746CB5/5F7BF536" Ref="R?"  Part="1" 
+AR Path="/5F7BF536" Ref="R3"  Part="1" 
+F 0 "R3" V 9080 1900 50  0000 C CNN
+F 1 "10K" V 9000 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 1900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9000 1900 50  0001 C CNN
+F 4 "Yageo" H 9000 1900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9000 1900 50  0001 C CNN "MPN"
+F 6 "0.10" H 9000 1900 50  0001 C CNN "Price"
+	1    9000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7BFB17
+P 8850 2150
+AR Path="/5F746CB5/5F7BFB17" Ref="R?"  Part="1" 
+AR Path="/5F7BFB17" Ref="R8"  Part="1" 
+F 0 "R8" V 8930 2150 50  0000 C CNN
+F 1 "10K" V 8850 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8850 2150 50  0001 C CNN
+F 4 "Yageo" H 8850 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 8850 2150 50  0001 C CNN "MPN"
+F 6 "0.10" H 8850 2150 50  0001 C CNN "Price"
+	1    8850 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7C00C8
+P 8450 2150
+AR Path="/5F746CB5/5F7C00C8" Ref="R?"  Part="1" 
+AR Path="/5F7C00C8" Ref="R7"  Part="1" 
+F 0 "R7" V 8530 2150 50  0000 C CNN
+F 1 "10K" V 8450 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8380 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 2150 50  0001 C CNN
+F 4 "Yageo" H 8450 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 8450 2150 50  0001 C CNN "MPN"
+F 6 "0.10" H 8450 2150 50  0001 C CNN "Price"
+	1    8450 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8600 2150 8700 2150
+Wire Wire Line
+	8300 2150 8200 2150
+Wire Wire Line
+	8200 2150 8200 2250
+Text Label 2100 7750 0    50   ~ 0
+PWM6
+NoConn ~ 9700 5850
+NoConn ~ 9700 5150
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J?
+U 1 1 5F95DFCD
+P 2600 7250
+F 0 "J?" H 2650 7850 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 2650 6550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 2600 7250 50  0001 C CNN
+F 3 "~" H 2600 7250 50  0001 C CNN
+	1    2600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5F95F27A
+P 1150 6950
+F 0 "J?" H 1150 7150 50  0000 C CNN
+F 1 "Conn_01x03" H 1150 6750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 6950 50  0001 C CNN
+F 3 "~" H 1150 6950 50  0001 C CNN
+	1    1150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  6950 950  6950
+Wire Wire Line
+	850  7050 950  7050
+Text Label 650  7300 0    50   ~ 0
+AUX2
+Wire Wire Line
+	650  7300 950  7300
+Text Label 650  7500 0    50   ~ 0
+GND
+Text Label 650  7400 0    50   ~ 0
++3V3
+Wire Wire Line
+	650  7400 950  7400
+Wire Wire Line
+	650  7500 950  7500
+Text Label 650  7750 0    50   ~ 0
+AUX3
+Wire Wire Line
+	650  7750 950  7750
+Text Label 650  7950 0    50   ~ 0
+GND
+Text Label 650  7850 0    50   ~ 0
++3V3
+Wire Wire Line
+	650  7850 950  7850
+Wire Wire Line
+	650  7950 950  7950
+Text GLabel 850  6950 0    50   Input ~ 0
++3V3
+Text GLabel 850  7050 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2300 6750 2400 6750
+Text GLabel 2300 6750 0    50   Input ~ 0
++3V3
+Text GLabel 3000 6750 2    50   Input ~ 0
++3V3
+Wire Wire Line
+	2900 6750 3000 6750
+Text GLabel 2300 6850 0    50   Input ~ 0
++5V
+Wire Wire Line
+	2300 6850 2400 6850
+Text GLabel 3000 6850 2    50   Input ~ 0
++5V
+Wire Wire Line
+	2900 6850 3000 6850
+Text GLabel 2300 6950 0    50   Input ~ 0
++12V
+Wire Wire Line
+	2300 6950 2400 6950
+Text GLabel 3000 6950 2    50   Input ~ 0
++12V
+Wire Wire Line
+	2900 6950 3000 6950
+Text Label 2100 7150 0    50   ~ 0
+AUX1
+Text GLabel 2000 7050 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2000 7050 2400 7050
+Wire Wire Line
+	2100 7150 2400 7150
+Text Label 3200 7150 2    50   ~ 0
+AUX2
+Text GLabel 3300 7050 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2900 7050 3300 7050
+Wire Wire Line
+	2900 7150 3200 7150
+Wire Wire Line
+	2000 7250 2400 7250
+Text GLabel 2000 7250 0    50   Input ~ 0
++3V3
+Wire Wire Line
+	3300 7250 2900 7250
+Text GLabel 3300 7250 2    50   Input ~ 0
++3V3
+Text Label 2100 7350 0    50   ~ 0
+AUX3
+Text Label 3200 7350 2    50   ~ 0
+AUX4
+Wire Wire Line
+	2100 7350 2400 7350
+Wire Wire Line
+	3200 7350 2900 7350
+Text GLabel 3300 7450 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2900 7450 3300 7450
+Text GLabel 2000 7450 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2400 7450 2000 7450
+Wire Wire Line
+	2000 7650 2400 7650
+Text GLabel 2000 7650 0    50   Input ~ 0
++3V3
+Wire Wire Line
+	3300 7650 2900 7650
+Text GLabel 3300 7650 2    50   Input ~ 0
++3V3
+Wire Wire Line
+	2100 7550 2400 7550
+Wire Wire Line
+	2100 7750 2400 7750
+Wire Wire Line
+	2900 7750 3200 7750
+Wire Wire Line
+	2900 7550 3200 7550
+Text GLabel 3300 7850 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2900 7850 3300 7850
+Text GLabel 2000 7850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	2000 7850 2400 7850
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5FFE5A31
+P 1150 7400
+F 0 "J?" H 1150 7600 50  0000 C CNN
+F 1 "Conn_01x03" H 1150 7200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 7400 50  0001 C CNN
+F 3 "~" H 1150 7400 50  0001 C CNN
+	1    1150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5FFE5EB2
+P 1150 7850
+F 0 "J?" H 1150 8050 50  0000 C CNN
+F 1 "Conn_01x03" H 1150 7650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 7850 50  0001 C CNN
+F 3 "~" H 1150 7850 50  0001 C CNN
+	1    1150 7850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
