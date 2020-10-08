@@ -1,4 +1,4 @@
-18210422327270393
+18212024463302393
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -71189,6 +71189,13 @@ ESP32-DEVKIT-V1
 0
 30
 30
+ProjectFootprints
+Maslow_Logo
+
+
+0
+0
+0
 RF_Antenna
 Coilcraft_MA5532-AE_RFID
 RFID Transponder Coil

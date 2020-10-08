@@ -146,7 +146,8 @@ F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf
 F 4 "Yageo" H 4300 6250 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 4300 6250 50  0001 C CNN "MPN"
 F 6 "0.046" H 4300 6250 50  0001 C CNN "Price"
-F 7 "302010165" H 4300 6250 50  0001 C CNN "SKU"
+F 7 "" H 4300 6250 50  0001 C CNN "SKU"
+F 8 "C49678" H 4300 6250 50  0001 C CNN "LCSC"
 	1    4300 6250
 	1    0    0    -1  
 $EndComp
@@ -217,7 +218,8 @@ F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf
 F 4 "Yageo" H 4550 3250 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 4550 3250 50  0001 C CNN "MPN"
 F 6 "0.046" H 4550 3250 50  0001 C CNN "Price"
-F 7 "302010165" H 4550 3250 50  0001 C CNN "SKU"
+F 7 "" H 4550 3250 50  0001 C CNN "SKU"
+F 8 "C49678" H 4550 3250 50  0001 C CNN "LCSC"
 	1    4550 3250
 	1    0    0    -1  
 $EndComp
@@ -248,7 +250,8 @@ F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf
 F 4 "Yageo" H 5750 1100 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 5750 1100 50  0001 C CNN "MPN"
 F 6 "0.046" H 5750 1100 50  0001 C CNN "Price"
-F 7 "302010165" H 5750 1100 50  0001 C CNN "SKU"
+F 7 "" H 5750 1100 50  0001 C CNN "SKU"
+F 8 "C49678" H 5750 1100 50  0001 C CNN "LCSC"
 	1    5750 1100
 	1    0    0    -1  
 $EndComp
@@ -279,8 +282,9 @@ F 1 "NCP3063" H 7000 1250 50  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 6700 1300 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/NCP3063-D.PDF" H 6700 1300 50  0001 C CNN
 F 4 "ONSemi" H 6700 1300 50  0001 C CNN "MFR"
-F 5 "NCP3063DR2G" H 6700 1300 50  0001 C CNN "MPN"
-F 6 "0.89" H 6700 1300 50  0001 C CNN "Price"
+F 5 "NCP3063BDR2G" H 6700 1300 50  0001 C CNN "MPN"
+F 6 "0.99" H 6700 1300 50  0001 C CNN "Price"
+F 7 "C41034" H 6700 1300 50  0001 C CNN "LCSC"
 	1    6700 1300
 	1    0    0    -1  
 $EndComp
@@ -355,6 +359,7 @@ F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B222KBANNNC.js
 F 4 "Samsung" H 6050 1150 50  0001 C CNN "MFR"
 F 5 "CL21B222KBANNNC" H 6050 1150 50  0001 C CNN "MPN"
 F 6 "0.10" H 6050 1150 50  0001 C CNN "Price"
+F 7 "C1728" H 6050 1150 50  0001 C CNN "LCSC"
 	1    6050 1150
 	1    0    0    -1  
 $EndComp
@@ -379,11 +384,12 @@ AR Path="/5F746CB5/5F774CFF" Ref="R?"  Part="1"
 AR Path="/5F774CFF" Ref="R1"  Part="1" 
 F 0 "R1" V 7130 650 50  0000 C CNN
 F 1 "0R15" V 7050 650 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 6980 650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" H 7050 650 50  0001 C CNN
-F 4 "Yageo" H 7050 650 50  0001 C CNN "MFR"
-F 5 "RL1206FR-070R15L" H 7050 650 50  0001 C CNN "MPN"
-F 6 "0.36" H 7050 650 50  0001 C CNN "Price"
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6980 650 50  0001 C CNN
+F 3 "https://www.ohmite.com/assets/docs/res_kdv.pdf?r=false" H 7050 650 50  0001 C CNN
+F 4 "Ohmite" H 7050 650 50  0001 C CNN "MFR"
+F 5 "KDV08FR150ET" H 7050 650 50  0001 C CNN "MPN"
+F 6 "0.29" H 7050 650 50  0001 C CNN "Price"
+F 7 "C270926" H 7050 650 50  0001 C CNN "LCSC"
 	1    7050 650 
 	0    1    1    0   
 $EndComp
@@ -405,6 +411,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 9000 1400 50  0001 C CNN "MFR"
 F 5 "RC0805FR-0710KL" H 9000 1400 50  0001 C CNN "MPN"
 F 6 "0.10" H 9000 1400 50  0001 C CNN "Price"
+F 7 "C17414" H 9000 1400 50  0001 C CNN "LCSC"
 	1    9000 1400
 	1    0    0    -1  
 $EndComp
@@ -468,6 +475,8 @@ F 2 "Inductor_SMD:L_12x12mm_H8mm" H 8050 1150 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NS12575T680MN%20&u=M" H 8050 1150 50  0001 C CNN
 F 4 "NS12575T680MN" V 8050 1150 50  0001 C CNN "MPN"
 F 5 "Taiyo Yuden" V 8050 1150 50  0001 C CNN "MFR"
+F 6 "C169377" H 8050 1150 50  0001 C CNN "LCSC"
+F 7 "1.47" H 8050 1150 50  0001 C CNN "Price"
 	1    8050 1150
 	0    1    -1   0   
 $EndComp
@@ -487,6 +496,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STPS2L30A_C133102.pdf"
 F 4 "STMicro" H 7800 1400 50  0001 C CNN "MFR"
 F 5 "STPS2L30A" H 7800 1400 50  0001 C CNN "MPN"
 F 6 "0.43" H 7800 1400 50  0001 C CNN "Price"
+F 7 "C133102" H 7800 1400 50  0001 C CNN "LCSC"
 	1    7800 1400
 	0    1    1    0   
 $EndComp
@@ -550,6 +560,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_
 F 4 "Samsung" H 8300 1400 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 8300 1400 50  0001 C CNN "MPN"
 F 6 "0.33" H 8300 1400 50  0001 C CNN "Price"
+F 7 "C68361" H 8300 1400 50  0001 C CNN "LCSC"
 	1    8300 1400
 	1    0    0    -1  
 $EndComp
@@ -566,6 +577,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_
 F 4 "Samsung" H 8600 1400 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 8600 1400 50  0001 C CNN "MPN"
 F 6 "0.33" H 8600 1400 50  0001 C CNN "Price"
+F 7 "C68361" H 8600 1400 50  0001 C CNN "LCSC"
 	1    8600 1400
 	1    0    0    -1  
 $EndComp
@@ -603,6 +615,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_
 F 4 "Samsung" H 4250 3250 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 4250 3250 50  0001 C CNN "MPN"
 F 6 "0.33" H 4250 3250 50  0001 C CNN "Price"
+F 7 "C68361" H 4250 3250 50  0001 C CNN "LCSC"
 	1    4250 3250
 	1    0    0    -1  
 $EndComp
@@ -641,12 +654,12 @@ P 3450 1050
 AR Path="/604DEB90" Ref="J2"  Part="1" 
 AR Path="/604DC41A/604DEB90" Ref="J?"  Part="1" 
 F 0 "J2" H 3450 1350 50  0000 C CNN
-F 1 "B6B-PH-SM4-TB" H 3450 650 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical" H 3450 1050 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/56/28/pIYBAFs5_uCAdW0LAAHQrBga-SA964.pdf" H 3450 1050 50  0001 C CNN
-F 4 "B6B-PH-SM4-TB(LF)(SN)" H 3450 1050 50  0001 C CNN "MPN"
+F 1 "B6B-PH-K-S" H 3450 650 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 1050 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 1050 50  0001 C CNN
+F 4 "B6B-PH-K-S(LF)(SN)" H 3450 1050 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 1050 50  0001 C CNN "MFR"
-F 6 "0.3644" H 3450 1050 50  0001 C CNN "Price"
+F 6 "0.33" H 3450 1050 50  0001 C CNN "Price"
 	1    3450 1050
 	1    0    0    -1  
 $EndComp
@@ -657,12 +670,12 @@ P 3450 2250
 AR Path="/5FA22EF0" Ref="J3"  Part="1" 
 AR Path="/604DC41A/5FA22EF0" Ref="J?"  Part="1" 
 F 0 "J3" H 3450 2550 50  0000 C CNN
-F 1 "B6B-PH-SM4-TB" H 3450 1850 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical" H 3450 2250 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/56/28/pIYBAFs5_uCAdW0LAAHQrBga-SA964.pdf" H 3450 2250 50  0001 C CNN
-F 4 "B6B-PH-SM4-TB(LF)(SN)" H 3450 2250 50  0001 C CNN "MPN"
+F 1 "B6B-PH-K-S" H 3450 1850 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 2250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 2250 50  0001 C CNN
+F 4 "B6B-PH-K-S(LF)(SN)" H 3450 2250 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 2250 50  0001 C CNN "MFR"
-F 6 "0.3644" H 3450 2250 50  0001 C CNN "Price"
+F 6 "0.33" H 3450 2250 50  0001 C CNN "Price"
 	1    3450 2250
 	1    0    0    -1  
 $EndComp
@@ -673,12 +686,12 @@ P 3450 3450
 AR Path="/5FA23815" Ref="J4"  Part="1" 
 AR Path="/604DC41A/5FA23815" Ref="J?"  Part="1" 
 F 0 "J4" H 3450 3750 50  0000 C CNN
-F 1 "B6B-PH-SM4-TB" H 3450 3050 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical" H 3450 3450 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/56/28/pIYBAFs5_uCAdW0LAAHQrBga-SA964.pdf" H 3450 3450 50  0001 C CNN
-F 4 "B6B-PH-SM4-TB(LF)(SN)" H 3450 3450 50  0001 C CNN "MPN"
+F 1 "B6B-PH-K-S" H 3450 3050 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 3450 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 3450 50  0001 C CNN
+F 4 "B6B-PH-K-S(LF)(SN)" H 3450 3450 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 3450 50  0001 C CNN "MFR"
-F 6 "0.3644" H 3450 3450 50  0001 C CNN "Price"
+F 6 "0.33" H 3450 3450 50  0001 C CNN "Price"
 	1    3450 3450
 	1    0    0    -1  
 $EndComp
@@ -723,7 +736,7 @@ Wire Wire Line
 	4700 4000 5100 4000
 Text Label 6800 4400 2    50   ~ 0
 ENC3B
-Text Label 6800 4300 2    50   ~ 0
+Text Label 6800 4500 2    50   ~ 0
 ENC3A
 Text Label 6800 4200 2    50   ~ 0
 ENC2B
@@ -750,6 +763,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STPS2L30A_C133102.pdf"
 F 4 "STMicro" H 6600 3150 50  0001 C CNN "MFR"
 F 5 "STPS2L30A" H 6600 3150 50  0001 C CNN "MPN"
 F 6 "0.43" H 6600 3150 50  0001 C CNN "Price"
+F 7 "C133102" H 6600 3150 50  0001 C CNN "LCSC"
 	1    6600 3150
 	0    -1   -1   0   
 $EndComp
@@ -780,9 +794,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 4300 4700 4300
 Wire Wire Line
-	5100 4400 4700 4400
-Wire Wire Line
 	6400 4300 6800 4300
+Wire Wire Line
+	6400 4500 6800 4500
 Wire Wire Line
 	6400 4400 6800 4400
 NoConn ~ 6400 4800
@@ -797,6 +811,7 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KG
 F 4 "Lite-On" H 9900 1850 50  0001 C CNN "MFR"
 F 5 "LTST-C170KGKT" H 9900 1850 50  0001 C CNN "MPN"
 F 6 "0.35" H 9900 1850 50  0001 C CNN "Price"
+F 7 "C73546" H 9900 1850 50  0001 C CNN "LCSC"
 	1    9900 1850
 	0    -1   -1   0   
 $EndComp
@@ -811,6 +826,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 9900 1450 50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 9900 1450 50  0001 C CNN "MPN"
 F 6 "0.10" H 9900 1450 50  0001 C CNN "Price"
+F 7 "C17513" H 9900 1450 50  0001 C CNN "LCSC"
 	1    9900 1450
 	1    0    0    -1  
 $EndComp
@@ -825,6 +841,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 9900 1050 50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 9900 1050 50  0001 C CNN "MPN"
 F 6 "0.10" H 9900 1050 50  0001 C CNN "Price"
+F 7 "C17513" H 9900 1050 50  0001 C CNN "LCSC"
 	1    9900 1050
 	1    0    0    -1  
 $EndComp
@@ -839,6 +856,7 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KS
 F 4 "Lite-On" H 10200 1850 50  0001 C CNN "MFR"
 F 5 "LTST-C171KSKT" H 10200 1850 50  0001 C CNN "MPN"
 F 6 "0.31" H 10200 1850 50  0001 C CNN "Price"
+F 7 "C72036" H 10200 1850 50  0001 C CNN "LCSC"
 	1    10200 1850
 	0    -1   -1   0   
 $EndComp
@@ -853,6 +871,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 10200 1450 50  0001 C CNN "MFR"
 F 5 "RC0805FR-071KL" H 10200 1450 50  0001 C CNN "MPN"
 F 6 "0.10" H 10200 1450 50  0001 C CNN "Price"
+F 7 "C17513" H 10200 1450 50  0001 C CNN "LCSC"
 	1    10200 1450
 	1    0    0    -1  
 $EndComp
@@ -921,6 +940,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf" H 9100 4950 
 F 4 "Microchip" H 9100 4950 50  0001 C CNN "MFR"
 F 5 "ATMEGA328PB-AU" H 9100 4950 50  0001 C CNN "MPN"
 F 6 "1.34" H 9100 4950 50  0001 C CNN "Price"
+F 7 "C132230" H 9100 4950 50  0001 C CNN "LCSC"
 	1    9100 4950
 	1    0    0    -1  
 $EndComp
@@ -940,7 +960,7 @@ Text Label 4700 4200 0    50   ~ 0
 AVR_SCLK
 Text Label 4700 4800 0    50   ~ 0
 AVR_MOSI
-Text Label 4700 4400 0    50   ~ 0
+Text Label 6800 4300 2    50   ~ 0
 AVR_RST
 Wire Wire Line
 	10200 3950 9700 3950
@@ -964,44 +984,40 @@ Text Label 10200 4050 2    50   ~ 0
 AVR_MOSI
 Text Label 10200 3850 2    50   ~ 0
 PWM4
-Text Label 10200 5450 2    50   ~ 0
-PWM1
 Text Label 10200 5550 2    50   ~ 0
-PWM2
+PWM1
 Text Label 10200 5650 2    50   ~ 0
-PWM3
+PWM2
 Text Label 10200 5750 2    50   ~ 0
+PWM3
+Text Label 10200 5450 2    50   ~ 0
 PWM5
 Wire Wire Line
 	9700 3850 10200 3850
-Wire Wire Line
-	9700 5450 10200 5450
 Wire Wire Line
 	9700 5550 10200 5550
 Wire Wire Line
 	9700 5650 10200 5650
 Wire Wire Line
 	9700 5750 10200 5750
-Text Label 10200 3750 2    50   ~ 0
-DIR1
-Text Label 10200 4350 2    50   ~ 0
-DIR2
-Text Label 10200 4450 2    50   ~ 0
-DIR3
-Text Label 8050 5450 0    50   ~ 0
-DIR4
+Wire Wire Line
+	9700 5450 10200 5450
 Text Label 8050 5550 0    50   ~ 0
-DIR5
+DIR1
+Text Label 8050 5450 0    50   ~ 0
+DIR2
+Text Label 10200 5850 2    50   ~ 0
+DIR3
+Text Label 10200 4850 2    50   ~ 0
+DIR4
 Wire Wire Line
-	9700 3750 10200 3750
-Wire Wire Line
-	9700 4350 10200 4350
-Wire Wire Line
-	9700 4450 10200 4450
+	8500 5550 8050 5550
 Wire Wire Line
 	8500 5450 8050 5450
 Wire Wire Line
-	8500 5550 8050 5550
+	9700 5850 10200 5850
+Wire Wire Line
+	9700 4850 10200 4850
 $Sheet
 S 1550 750  800  800 
 U 5F926A4C
@@ -1009,8 +1025,8 @@ F0 "DC Driver 1" 50
 F1 "DCDriver.sch" 50
 F2 "DIR" I L 1550 850 50 
 F3 "PWM" I L 1550 950 50 
-F4 "OUT1" O R 2350 850 50 
-F5 "OUT2" O R 2350 950 50 
+F4 "OUT1" O R 2350 950 50 
+F5 "OUT2" O R 2350 850 50 
 F6 "MOSI" I L 1550 1150 50 
 F7 "MISO" I L 1550 1250 50 
 F8 "SCLK" I L 1550 1350 50 
@@ -1023,12 +1039,12 @@ P 3450 4650
 AR Path="/5FA3EE82" Ref="J5"  Part="1" 
 AR Path="/604DC41A/5FA3EE82" Ref="J?"  Part="1" 
 F 0 "J5" H 3450 4950 50  0000 C CNN
-F 1 "B6B-PH-SM4-TB" H 3450 4250 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical" H 3450 4650 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/56/28/pIYBAFs5_uCAdW0LAAHQrBga-SA964.pdf" H 3450 4650 50  0001 C CNN
-F 4 "B6B-PH-SM4-TB(LF)(SN)" H 3450 4650 50  0001 C CNN "MPN"
+F 1 "B6B-PH-K-S" H 3450 4250 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 4650 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 4650 50  0001 C CNN
+F 4 "B6B-PH-K-S(LF)(SN)" H 3450 4650 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 4650 50  0001 C CNN "MFR"
-F 6 "0.3644" H 3450 4650 50  0001 C CNN "Price"
+F 6 "0.33" H 3450 4650 50  0001 C CNN "Price"
 	1    3450 4650
 	1    0    0    -1  
 $EndComp
@@ -1051,12 +1067,12 @@ P 3450 5850
 AR Path="/5FA4CC02" Ref="J6"  Part="1" 
 AR Path="/604DC41A/5FA4CC02" Ref="J?"  Part="1" 
 F 0 "J6" H 3450 6150 50  0000 C CNN
-F 1 "B6B-PH-SM4-TB" H 3450 5450 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-SM4-TB_1x06-1MP_P2.00mm_Vertical" H 3450 5850 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/56/28/pIYBAFs5_uCAdW0LAAHQrBga-SA964.pdf" H 3450 5850 50  0001 C CNN
-F 4 "B6B-PH-SM4-TB(LF)(SN)" H 3450 5850 50  0001 C CNN "MPN"
+F 1 "B6B-PH-K-S" H 3450 5450 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 5850 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 5850 50  0001 C CNN
+F 4 "B6B-PH-K-S(LF)(SN)" H 3450 5850 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 5850 50  0001 C CNN "MFR"
-F 6 "0.3644" H 3450 5850 50  0001 C CNN "Price"
+F 6 "0.33" H 3450 5850 50  0001 C CNN "Price"
 	1    3450 5850
 	1    0    0    -1  
 $EndComp
@@ -1155,8 +1171,8 @@ F0 "DC Driver 2" 50
 F1 "DCDriver.sch" 50
 F2 "DIR" I L 1550 2050 50 
 F3 "PWM" I L 1550 2150 50 
-F4 "OUT1" O R 2350 2050 50 
-F5 "OUT2" O R 2350 2150 50 
+F4 "OUT1" O R 2350 2150 50 
+F5 "OUT2" O R 2350 2050 50 
 F6 "MOSI" I L 1550 2350 50 
 F7 "MISO" I L 1550 2450 50 
 F8 "SCLK" I L 1550 2550 50 
@@ -1169,8 +1185,8 @@ F0 "DC Driver 3" 50
 F1 "DCDriver.sch" 50
 F2 "DIR" I L 1550 3250 50 
 F3 "PWM" I L 1550 3350 50 
-F4 "OUT1" O R 2350 3250 50 
-F5 "OUT2" O R 2350 3350 50 
+F4 "OUT1" O R 2350 3350 50 
+F5 "OUT2" O R 2350 3250 50 
 F6 "MOSI" I L 1550 3550 50 
 F7 "MISO" I L 1550 3650 50 
 F8 "SCLK" I L 1550 3750 50 
@@ -1183,8 +1199,8 @@ F0 "DC Driver 4" 50
 F1 "DCDriver.sch" 50
 F2 "DIR" I L 1550 4450 50 
 F3 "PWM" I L 1550 4550 50 
-F4 "OUT1" O R 2350 4450 50 
-F5 "OUT2" O R 2350 4550 50 
+F4 "OUT1" O R 2350 4550 50 
+F5 "OUT2" O R 2350 4450 50 
 F6 "MOSI" I L 1550 4750 50 
 F7 "MISO" I L 1550 4850 50 
 F8 "SCLK" I L 1550 4950 50 
@@ -1197,8 +1213,8 @@ F0 "DC Driver 5" 50
 F1 "DCDriver.sch" 50
 F2 "DIR" I L 1550 5650 50 
 F3 "PWM" I L 1550 5750 50 
-F4 "OUT1" O R 2350 5650 50 
-F5 "OUT2" O R 2350 5750 50 
+F4 "OUT1" O R 2350 5750 50 
+F5 "OUT2" O R 2350 5650 50 
 F6 "MOSI" I L 1550 5950 50 
 F7 "MISO" I L 1550 6050 50 
 F8 "SCLK" I L 1550 6150 50 
@@ -1230,22 +1246,22 @@ Text Label 8050 5750 0    50   ~ 0
 MOT_MOSI
 Text Label 6800 3900 2    50   ~ 0
 ENC1A
-Text Label 4700 4700 0    50   ~ 0
+Text Label 4700 4400 0    50   ~ 0
 ENC5B
-Text Label 6800 4700 2    50   ~ 0
+Text Label 4700 4700 0    50   ~ 0
 ENC5A
 Text Label 6800 4600 2    50   ~ 0
 ENC4B
-Text Label 6800 4500 2    50   ~ 0
+Text Label 6800 4700 2    50   ~ 0
 ENC4A
-Wire Wire Line
-	6800 4500 6400 4500
 Wire Wire Line
 	6800 4600 6400 4600
 Wire Wire Line
-	6400 4700 6800 4700
+	6800 4700 6400 4700
 Wire Wire Line
 	5100 4700 4700 4700
+Wire Wire Line
+	5100 4400 4700 4400
 Wire Wire Line
 	8500 5750 8050 5750
 Wire Wire Line
@@ -1347,10 +1363,10 @@ Text Label 4700 3900 0    50   ~ 0
 AUX2
 Text Label 4700 4000 0    50   ~ 0
 AUX3
-Text Label 10200 4850 2    50   ~ 0
+Text Label 10200 4450 2    50   ~ 0
 AUX4
 Wire Wire Line
-	9700 4850 10200 4850
+	9700 4450 10200 4450
 Text Label 10200 4950 2    50   ~ 0
 AUX5
 Text Label 10200 5050 2    50   ~ 0
@@ -1378,7 +1394,8 @@ F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf
 F 4 "Yageo" H 8300 4000 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 8300 4000 50  0001 C CNN "MPN"
 F 6 "0.046" H 8300 4000 50  0001 C CNN "Price"
-F 7 "302010165" H 8300 4000 50  0001 C CNN "SKU"
+F 7 "" H 8300 4000 50  0001 C CNN "SKU"
+F 8 "C49678" H 8300 4000 50  0001 C CNN "LCSC"
 	1    8300 4000
 	1    0    0    -1  
 $EndComp
@@ -1423,7 +1440,8 @@ F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf
 F 4 "Yageo" H 9450 3150 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 9450 3150 50  0001 C CNN "MPN"
 F 6 "0.046" H 9450 3150 50  0001 C CNN "Price"
-F 7 "302010165" H 9450 3150 50  0001 C CNN "SKU"
+F 7 "" H 9450 3150 50  0001 C CNN "SKU"
+F 8 "C49678" H 9450 3150 50  0001 C CNN "LCSC"
 	1    9450 3150
 	0    1    1    0   
 $EndComp
@@ -1492,6 +1510,7 @@ F 4 "" H 5150 1100 50  0001 C CNN "Mfr"
 F 5 "SMAJ24CA" H 5150 1100 50  0001 C CNN "MPN"
 F 6 "0.35" H 5150 1100 50  0001 C CNN "Price"
 F 7 "LittelFuse" H 5150 1100 50  0001 C CNN "MFR"
+F 8 "C28092" H 5150 1100 50  0001 C CNN "LCSC"
 	1    5150 1100
 	0    1    1    0   
 $EndComp
@@ -1546,7 +1565,6 @@ Text Notes 10250 5550 0    50   ~ 0
 OC4A
 Text Notes 10250 5650 0    50   ~ 0
 OC3B
-NoConn ~ 9700 6150
 $Comp
 L Device:R R?
 U 1 1 5F7BF536
@@ -1560,6 +1578,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 9000 1900 50  0001 C CNN "MFR"
 F 5 "RC0805FR-0710KL" H 9000 1900 50  0001 C CNN "MPN"
 F 6 "0.10" H 9000 1900 50  0001 C CNN "Price"
+F 7 "C17414" H 9000 1900 50  0001 C CNN "LCSC"
 	1    9000 1900
 	1    0    0    -1  
 $EndComp
@@ -1576,6 +1595,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 8850 2150 50  0001 C CNN "MFR"
 F 5 "RC0805FR-0710KL" H 8850 2150 50  0001 C CNN "MPN"
 F 6 "0.10" H 8850 2150 50  0001 C CNN "Price"
+F 7 "C17414" H 8850 2150 50  0001 C CNN "LCSC"
 	1    8850 2150
 	0    1    1    0   
 $EndComp
@@ -1592,6 +1612,7 @@ F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PY
 F 4 "Yageo" H 8450 2150 50  0001 C CNN "MFR"
 F 5 "RC0805FR-0710KL" H 8450 2150 50  0001 C CNN "MPN"
 F 6 "0.10" H 8450 2150 50  0001 C CNN "Price"
+F 7 "C17414" H 8450 2150 50  0001 C CNN "LCSC"
 	1    8450 2150
 	0    1    1    0   
 $EndComp
@@ -1603,8 +1624,6 @@ Wire Wire Line
 	8200 2150 8200 2250
 Text Label 2100 7750 0    50   ~ 0
 PWM6
-NoConn ~ 9700 5850
-NoConn ~ 9700 5150
 $Comp
 L Connector_Generic:Conn_02x12_Odd_Even J9
 U 1 1 5F95DFCD
@@ -1635,26 +1654,10 @@ Text Label 650  7300 0    50   ~ 0
 AUX2
 Wire Wire Line
 	650  7300 950  7300
-Text Label 650  7500 0    50   ~ 0
-GND
-Text Label 650  7400 0    50   ~ 0
-+3V3
-Wire Wire Line
-	650  7400 950  7400
-Wire Wire Line
-	650  7500 950  7500
 Text Label 650  7750 0    50   ~ 0
 AUX3
 Wire Wire Line
 	650  7750 950  7750
-Text Label 650  7950 0    50   ~ 0
-GND
-Text Label 650  7850 0    50   ~ 0
-+3V3
-Wire Wire Line
-	650  7850 950  7850
-Wire Wire Line
-	650  7950 950  7950
 Text GLabel 850  6950 0    50   Input ~ 0
 +3V3
 Text GLabel 850  7050 0    50   Input ~ 0
@@ -1683,16 +1686,12 @@ Text GLabel 3000 6950 2    50   Input ~ 0
 +12V
 Wire Wire Line
 	2900 6950 3000 6950
-Text Label 2100 7150 0    50   ~ 0
-AUX1
 Text GLabel 2000 7050 0    50   Input ~ 0
 GND
 Wire Wire Line
 	2000 7050 2400 7050
 Wire Wire Line
 	2100 7150 2400 7150
-Text Label 3200 7150 2    50   ~ 0
-AUX2
 Text GLabel 3300 7050 2    50   Input ~ 0
 GND
 Wire Wire Line
@@ -1707,8 +1706,6 @@ Wire Wire Line
 	3300 7250 2900 7250
 Text GLabel 3300 7250 2    50   Input ~ 0
 +3V3
-Text Label 2100 7350 0    50   ~ 0
-AUX3
 Text Label 3200 7350 2    50   ~ 0
 AUX4
 Wire Wire Line
@@ -1769,4 +1766,33 @@ F 3 "~" H 1150 7850 50  0001 C CNN
 	1    1150 7850
 	1    0    0    -1  
 $EndComp
+Text Label 2100 7150 0    50   ~ 0
+SD_DI
+Text Label 3200 7150 2    50   ~ 0
+SD_CLK
+Text Label 2100 7350 0    50   ~ 0
+SD_DO
+Wire Wire Line
+	850  7400 950  7400
+Wire Wire Line
+	850  7500 950  7500
+Text GLabel 850  7400 0    50   Input ~ 0
++3V3
+Text GLabel 850  7500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	850  7850 950  7850
+Wire Wire Line
+	850  7950 950  7950
+Text GLabel 850  7850 0    50   Input ~ 0
++3V3
+Text GLabel 850  7950 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9700 3750 10200 3750
+Text Label 10200 3750 2    50   ~ 0
+DIR5
+NoConn ~ 9700 4350
+NoConn ~ 9700 5150
+NoConn ~ 9700 6150
 $EndSCHEMATC
