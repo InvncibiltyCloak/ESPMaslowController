@@ -1631,7 +1631,10 @@ P 2600 7250
 F 0 "J9" H 2650 7850 50  0000 C CNN
 F 1 "Conn_02x12_Odd_Even" H 2650 6550 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical" H 2600 7250 50  0001 C CNN
-F 3 "~" H 2600 7250 50  0001 C CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/g800wxxxxxxeu_2.pdf" H 2600 7250 50  0001 C CNN
+F 4 "Amphenol" H 2600 7250 50  0001 C CNN "MFR"
+F 5 "G800W590018EU" H 2600 7250 50  0001 C CNN "MPN"
+F 6 "0.23" H 2600 7250 50  0001 C CNN "Price"
 	1    2600 7250
 	1    0    0    -1  
 $EndComp
@@ -1642,7 +1645,10 @@ P 1150 6950
 F 0 "J8" H 1150 7150 50  0000 C CNN
 F 1 "Conn_01x03" H 1150 6750 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 6950 50  0001 C CNN
-F 3 "~" H 1150 6950 50  0001 C CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/g800wxxxxxxeu_1.pdf" H 1150 6950 50  0001 C CNN
+F 4 "Amphenol" H 1150 6950 50  0001 C CNN "MFR"
+F 5 "G800W305018EU" H 1150 6950 50  0001 C CNN "MPN"
+F 6 "0.10" H 1150 6950 50  0001 C CNN "Price"
 	1    1150 6950
 	1    0    0    -1  
 $EndComp
@@ -1751,7 +1757,10 @@ P 1150 7400
 F 0 "J10" H 1150 7600 50  0000 C CNN
 F 1 "Conn_01x03" H 1150 7200 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 7400 50  0001 C CNN
-F 3 "~" H 1150 7400 50  0001 C CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/g800wxxxxxxeu_1.pdf" H 1150 7400 50  0001 C CNN
+F 4 "Amphenol" H 1150 7400 50  0001 C CNN "MFR"
+F 5 "G800W305018EU" H 1150 7400 50  0001 C CNN "MPN"
+F 6 "0.10" H 1150 7400 50  0001 C CNN "Price"
 	1    1150 7400
 	1    0    0    -1  
 $EndComp
@@ -1762,7 +1771,10 @@ P 1150 7850
 F 0 "J11" H 1150 8050 50  0000 C CNN
 F 1 "Conn_01x03" H 1150 7650 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 7850 50  0001 C CNN
-F 3 "~" H 1150 7850 50  0001 C CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/g800wxxxxxxeu_1.pdf" H 1150 7850 50  0001 C CNN
+F 4 "Amphenol" H 1150 7850 50  0001 C CNN "MFR"
+F 5 "G800W305018EU" H 1150 7850 50  0001 C CNN "MPN"
+F 6 "0.10" H 1150 7850 50  0001 C CNN "Price"
 	1    1150 7850
 	1    0    0    -1  
 $EndComp
