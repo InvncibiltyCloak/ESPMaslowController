@@ -142,7 +142,7 @@ P 4300 6250
 F 0 "C6" H 4325 6350 50  0000 L CNN
 F 1 "100n" H 4325 6150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 6100 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf?filename=Yageo.pdf" H 4300 6250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4300 6250 50  0001 C CNN
 F 4 "Yageo" H 4300 6250 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 4300 6250 50  0001 C CNN "MPN"
 F 6 "0.046" H 4300 6250 50  0001 C CNN "Price"
@@ -214,7 +214,7 @@ P 4550 3250
 F 0 "C8" H 4575 3350 50  0000 L CNN
 F 1 "100n" H 4575 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4588 3100 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf?filename=Yageo.pdf" H 4550 3250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4550 3250 50  0001 C CNN
 F 4 "Yageo" H 4550 3250 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 4550 3250 50  0001 C CNN "MPN"
 F 6 "0.046" H 4550 3250 50  0001 C CNN "Price"
@@ -246,7 +246,7 @@ AR Path="/5F774CC2" Ref="C2"  Part="1"
 F 0 "C2" H 5775 1200 50  0000 L CNN
 F 1 "100n" H 5775 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5788 950 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf?filename=Yageo.pdf" H 5750 1100 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5750 1100 50  0001 C CNN
 F 4 "Yageo" H 5750 1100 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 5750 1100 50  0001 C CNN "MPN"
 F 6 "0.046" H 5750 1100 50  0001 C CNN "Price"
@@ -284,7 +284,7 @@ F 3 "http://www.onsemi.com/pub/Collateral/NCP3063-D.PDF" H 6700 1300 50  0001 C 
 F 4 "ONSemi" H 6700 1300 50  0001 C CNN "MFR"
 F 5 "NCP3063BDR2G" H 6700 1300 50  0001 C CNN "MPN"
 F 6 "0.99" H 6700 1300 50  0001 C CNN "Price"
-F 7 "C41034" H 6700 1300 50  0001 C CNN "LCSC"
+F 7 "" H 6700 1300 50  0001 C CNN "LCSC"
 	1    6700 1300
 	1    0    0    -1  
 $EndComp
@@ -359,7 +359,7 @@ F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B222KBANNNC.js
 F 4 "Samsung" H 6050 1150 50  0001 C CNN "MFR"
 F 5 "CL21B222KBANNNC" H 6050 1150 50  0001 C CNN "MPN"
 F 6 "0.10" H 6050 1150 50  0001 C CNN "Price"
-F 7 "C1728" H 6050 1150 50  0001 C CNN "LCSC"
+F 7 "C28260" H 6050 1150 50  0001 C CNN "LCSC"
 	1    6050 1150
 	1    0    0    -1  
 $EndComp
@@ -389,7 +389,7 @@ F 3 "https://www.ohmite.com/assets/docs/res_kdv.pdf?r=false" H 7050 650 50  0001
 F 4 "Ohmite" H 7050 650 50  0001 C CNN "MFR"
 F 5 "KDV08FR150ET" H 7050 650 50  0001 C CNN "MPN"
 F 6 "0.29" H 7050 650 50  0001 C CNN "Price"
-F 7 "C270926" H 7050 650 50  0001 C CNN "LCSC"
+F 7 "" H 7050 650 50  0001 C CNN "LCSC"
 	1    7050 650 
 	0    1    1    0   
 $EndComp
@@ -475,7 +475,7 @@ F 2 "Inductor_SMD:L_12x12mm_H8mm" H 8050 1150 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NS12575T680MN%20&u=M" H 8050 1150 50  0001 C CNN
 F 4 "NS12575T680MN" V 8050 1150 50  0001 C CNN "MPN"
 F 5 "Taiyo Yuden" V 8050 1150 50  0001 C CNN "MFR"
-F 6 "C169377" H 8050 1150 50  0001 C CNN "LCSC"
+F 6 "" H 8050 1150 50  0001 C CNN "LCSC"
 F 7 "1.47" H 8050 1150 50  0001 C CNN "Price"
 	1    8050 1150
 	0    1    -1   0   
@@ -496,7 +496,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STPS2L30A_C133102.pdf"
 F 4 "STMicro" H 7800 1400 50  0001 C CNN "MFR"
 F 5 "STPS2L30A" H 7800 1400 50  0001 C CNN "MPN"
 F 6 "0.43" H 7800 1400 50  0001 C CNN "Price"
-F 7 "C133102" H 7800 1400 50  0001 C CNN "LCSC"
+F 7 "" H 7800 1400 50  0001 C CNN "LCSC"
 	1    7800 1400
 	0    1    1    0   
 $EndComp
@@ -560,7 +560,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_
 F 4 "Samsung" H 8300 1400 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 8300 1400 50  0001 C CNN "MPN"
 F 6 "0.33" H 8300 1400 50  0001 C CNN "Price"
-F 7 "C68361" H 8300 1400 50  0001 C CNN "LCSC"
+F 7 "C96123" H 8300 1400 50  0001 C CNN "LCSC"
 	1    8300 1400
 	1    0    0    -1  
 $EndComp
@@ -577,7 +577,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_
 F 4 "Samsung" H 8600 1400 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 8600 1400 50  0001 C CNN "MPN"
 F 6 "0.33" H 8600 1400 50  0001 C CNN "Price"
-F 7 "C68361" H 8600 1400 50  0001 C CNN "LCSC"
+F 7 "C96123" H 8600 1400 50  0001 C CNN "LCSC"
 	1    8600 1400
 	1    0    0    -1  
 $EndComp
@@ -615,7 +615,7 @@ F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL31A476MQHNNNE_
 F 4 "Samsung" H 4250 3250 50  0001 C CNN "MFR"
 F 5 "CL31A476MQHNNNE" H 4250 3250 50  0001 C CNN "MPN"
 F 6 "0.33" H 4250 3250 50  0001 C CNN "Price"
-F 7 "C68361" H 4250 3250 50  0001 C CNN "LCSC"
+F 7 "C96123" H 4250 3250 50  0001 C CNN "LCSC"
 	1    4250 3250
 	1    0    0    -1  
 $EndComp
@@ -763,7 +763,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STPS2L30A_C133102.pdf"
 F 4 "STMicro" H 6600 3150 50  0001 C CNN "MFR"
 F 5 "STPS2L30A" H 6600 3150 50  0001 C CNN "MPN"
 F 6 "0.43" H 6600 3150 50  0001 C CNN "Price"
-F 7 "C133102" H 6600 3150 50  0001 C CNN "LCSC"
+F 7 "" H 6600 3150 50  0001 C CNN "LCSC"
 	1    6600 3150
 	0    -1   -1   0   
 $EndComp
@@ -811,7 +811,7 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KG
 F 4 "Lite-On" H 9900 1850 50  0001 C CNN "MFR"
 F 5 "LTST-C170KGKT" H 9900 1850 50  0001 C CNN "MPN"
 F 6 "0.35" H 9900 1850 50  0001 C CNN "Price"
-F 7 "C73546" H 9900 1850 50  0001 C CNN "LCSC"
+F 7 "C2297" H 9900 1850 50  0001 C CNN "LCSC"
 	1    9900 1850
 	0    -1   -1   0   
 $EndComp
@@ -856,7 +856,7 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KS
 F 4 "Lite-On" H 10200 1850 50  0001 C CNN "MFR"
 F 5 "LTST-C171KSKT" H 10200 1850 50  0001 C CNN "MPN"
 F 6 "0.31" H 10200 1850 50  0001 C CNN "Price"
-F 7 "C72036" H 10200 1850 50  0001 C CNN "LCSC"
+F 7 "C2296" H 10200 1850 50  0001 C CNN "LCSC"
 	1    10200 1850
 	0    -1   -1   0   
 $EndComp
@@ -940,7 +940,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf" H 9100 4950 
 F 4 "Microchip" H 9100 4950 50  0001 C CNN "MFR"
 F 5 "ATMEGA328PB-AU" H 9100 4950 50  0001 C CNN "MPN"
 F 6 "1.34" H 9100 4950 50  0001 C CNN "Price"
-F 7 "C132230" H 9100 4950 50  0001 C CNN "LCSC"
+F 7 "" H 9100 4950 50  0001 C CNN "LCSC"
 	1    9100 4950
 	1    0    0    -1  
 $EndComp
@@ -1390,7 +1390,7 @@ P 8300 4000
 F 0 "C10" H 8325 4100 50  0000 L CNN
 F 1 "100n" H 8325 3900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 3850 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf?filename=Yageo.pdf" H 8300 4000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8300 4000 50  0001 C CNN
 F 4 "Yageo" H 8300 4000 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 8300 4000 50  0001 C CNN "MPN"
 F 6 "0.046" H 8300 4000 50  0001 C CNN "Price"
@@ -1436,7 +1436,7 @@ P 9450 3150
 F 0 "C9" H 9475 3250 50  0000 L CNN
 F 1 "100n" H 9475 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 3000 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf?filename=Yageo.pdf" H 9450 3150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9450 3150 50  0001 C CNN
 F 4 "Yageo" H 9450 3150 50  0001 C CNN "MFR"
 F 5 "CC0805KRX7R9BB104" H 9450 3150 50  0001 C CNN "MPN"
 F 6 "0.046" H 9450 3150 50  0001 C CNN "Price"
@@ -1510,7 +1510,7 @@ F 4 "" H 5150 1100 50  0001 C CNN "Mfr"
 F 5 "SMAJ24CA" H 5150 1100 50  0001 C CNN "MPN"
 F 6 "0.35" H 5150 1100 50  0001 C CNN "Price"
 F 7 "LittelFuse" H 5150 1100 50  0001 C CNN "MFR"
-F 8 "C28092" H 5150 1100 50  0001 C CNN "LCSC"
+F 8 "" H 5150 1100 50  0001 C CNN "LCSC"
 	1    5150 1100
 	0    1    1    0   
 $EndComp

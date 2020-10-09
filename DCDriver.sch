@@ -153,7 +153,7 @@ AR Path="/5FC79084/5F9FF9F3" Ref="C19"  Part="1"
 F 0 "C19" H 4975 2750 50  0000 L CNN
 F 1 "100n" H 4975 2550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 4988 2500 50  0001 C CNN
-F 3 "https://file.elecfans.com/web1/M00/B1/C4/pIYBAF38kjqAET8yABXo2tpxHKE055.pdf?filename=Yageo.pdf" H 4950 2650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4950 2650 50  0001 C CNN
 F 4 "CC0805KRX7R9BB104" H 4950 2650 50  0001 C CNN "MPN"
 F 5 "Yageo" H 4950 2650 50  0001 C CNN "MFR"
 F 6 "0.046" H 4950 2650 50  0001 C CNN "Price"
