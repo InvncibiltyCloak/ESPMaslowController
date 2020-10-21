@@ -401,18 +401,18 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 5F774D0B
-P 9000 1400
+P 9000 1900
 AR Path="/5F746CB5/5F774D0B" Ref="R?"  Part="1" 
 AR Path="/5F774D0B" Ref="R2"  Part="1" 
-F 0 "R2" V 9080 1400 50  0000 C CNN
-F 1 "10K" V 9000 1400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 1400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9000 1400 50  0001 C CNN
-F 4 "Yageo" H 9000 1400 50  0001 C CNN "MFR"
-F 5 "RC0805FR-0710KL" H 9000 1400 50  0001 C CNN "MPN"
-F 6 "0.10" H 9000 1400 50  0001 C CNN "Price"
-F 7 "C17414" H 9000 1400 50  0001 C CNN "LCSC"
-	1    9000 1400
+F 0 "R2" V 9080 1900 50  0000 C CNN
+F 1 "10K" V 9000 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 1900 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9000 1900 50  0001 C CNN
+F 4 "Yageo" H 9000 1900 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 9000 1900 50  0001 C CNN "MPN"
+F 6 "0.10" H 9000 1900 50  0001 C CNN "Price"
+F 7 "C17414" H 9000 1900 50  0001 C CNN "LCSC"
+	1    9000 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -421,29 +421,20 @@ Wire Wire Line
 	7550 1050 7550 950 
 Connection ~ 7550 950 
 Wire Wire Line
-	9000 1550 9000 1650
-Wire Wire Line
-	9000 1650 8850 1650
-Wire Wire Line
 	7550 1250 7450 1250
-Connection ~ 9000 1650
-Wire Wire Line
-	9000 1650 9000 1750
 $Comp
 L power:GND #PWR?
 U 1 1 5F774D1F
-P 8200 2250
+P 7600 2250
 AR Path="/5F746CB5/5F774D1F" Ref="#PWR?"  Part="1" 
 AR Path="/5F774D1F" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 8200 2000 50  0001 C CNN
-F 1 "GND" H 8200 2100 50  0000 C CNN
-F 2 "" H 8200 2250 50  0001 C CNN
-F 3 "" H 8200 2250 50  0001 C CNN
-	1    8200 2250
+F 0 "#PWR05" H 7600 2000 50  0001 C CNN
+F 1 "GND" H 7600 2100 50  0000 C CNN
+F 2 "" H 7600 2250 50  0001 C CNN
+F 3 "" H 7600 2250 50  0001 C CNN
+	1    7600 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 2050 9000 2150
 $Comp
 L power:GND #PWR?
 U 1 1 5F774D26
@@ -540,13 +531,9 @@ Connection ~ 8600 1150
 Wire Wire Line
 	8600 1150 9000 1150
 Wire Wire Line
-	9000 1150 9000 1250
+	9000 1150 9000 1750
 Wire Wire Line
-	8850 1650 8850 2050
-Wire Wire Line
-	8850 2050 7550 2050
-Wire Wire Line
-	7550 1250 7550 2050
+	7550 1250 7550 2000
 $Comp
 L Device:C C?
 U 1 1 5F774D5C
@@ -654,8 +641,8 @@ P 3450 1050
 AR Path="/604DEB90" Ref="J2"  Part="1" 
 AR Path="/604DC41A/604DEB90" Ref="J?"  Part="1" 
 F 0 "J2" H 3450 1350 50  0000 C CNN
-F 1 "B6B-PH-K-S" H 3450 650 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 1050 50  0001 C CNN
+F 1 "B6B-XH-A" H 3450 650 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 3450 1050 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 1050 50  0001 C CNN
 F 4 "B6B-PH-K-S(LF)(SN)" H 3450 1050 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 1050 50  0001 C CNN "MFR"
@@ -670,8 +657,8 @@ P 3450 2250
 AR Path="/5FA22EF0" Ref="J3"  Part="1" 
 AR Path="/604DC41A/5FA22EF0" Ref="J?"  Part="1" 
 F 0 "J3" H 3450 2550 50  0000 C CNN
-F 1 "B6B-PH-K-S" H 3450 1850 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 2250 50  0001 C CNN
+F 1 "B6B-XH-A" H 3450 1850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 3450 2250 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 2250 50  0001 C CNN
 F 4 "B6B-PH-K-S(LF)(SN)" H 3450 2250 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 2250 50  0001 C CNN "MFR"
@@ -686,8 +673,8 @@ P 3450 3450
 AR Path="/5FA23815" Ref="J4"  Part="1" 
 AR Path="/604DC41A/5FA23815" Ref="J?"  Part="1" 
 F 0 "J4" H 3450 3750 50  0000 C CNN
-F 1 "B6B-PH-K-S" H 3450 3050 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 3450 50  0001 C CNN
+F 1 "B6B-XH-A" H 3450 3050 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 3450 3450 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 3450 50  0001 C CNN
 F 4 "B6B-PH-K-S(LF)(SN)" H 3450 3450 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 3450 50  0001 C CNN "MFR"
@@ -1037,8 +1024,8 @@ P 3450 4650
 AR Path="/5FA3EE82" Ref="J5"  Part="1" 
 AR Path="/604DC41A/5FA3EE82" Ref="J?"  Part="1" 
 F 0 "J5" H 3450 4950 50  0000 C CNN
-F 1 "B6B-PH-K-S" H 3450 4250 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 4650 50  0001 C CNN
+F 1 "B6B-XH-A" H 3450 4250 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 3450 4650 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 4650 50  0001 C CNN
 F 4 "B6B-PH-K-S(LF)(SN)" H 3450 4650 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 4650 50  0001 C CNN "MFR"
@@ -1065,8 +1052,8 @@ P 3450 5850
 AR Path="/5FA4CC02" Ref="J6"  Part="1" 
 AR Path="/604DC41A/5FA4CC02" Ref="J?"  Part="1" 
 F 0 "J6" H 3450 6150 50  0000 C CNN
-F 1 "B6B-PH-K-S" H 3450 5450 50  0001 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 3450 5850 50  0001 C CNN
+F 1 "B6B-XH-A" H 3450 5450 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical" H 3450 5850 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 3450 5850 50  0001 C CNN
 F 4 "B6B-PH-K-S(LF)(SN)" H 3450 5850 50  0001 C CNN "MPN"
 F 5 "JST" H 3450 5850 50  0001 C CNN "MFR"
@@ -1566,60 +1553,60 @@ OC3B
 $Comp
 L Device:R R?
 U 1 1 5F7BF536
-P 9000 1900
+P 8750 2150
 AR Path="/5F746CB5/5F7BF536" Ref="R?"  Part="1" 
 AR Path="/5F7BF536" Ref="R3"  Part="1" 
-F 0 "R3" V 9080 1900 50  0000 C CNN
-F 1 "10K" V 9000 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8930 1900 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 9000 1900 50  0001 C CNN
-F 4 "Yageo" H 9000 1900 50  0001 C CNN "MFR"
-F 5 "RC0805FR-0710KL" H 9000 1900 50  0001 C CNN "MPN"
-F 6 "0.10" H 9000 1900 50  0001 C CNN "Price"
-F 7 "C17414" H 9000 1900 50  0001 C CNN "LCSC"
-	1    9000 1900
-	1    0    0    -1  
+F 0 "R3" V 8830 2150 50  0000 C CNN
+F 1 "10K" V 8750 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8680 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8750 2150 50  0001 C CNN
+F 4 "Yageo" H 8750 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 8750 2150 50  0001 C CNN "MPN"
+F 6 "0.10" H 8750 2150 50  0001 C CNN "Price"
+F 7 "C17414" H 8750 2150 50  0001 C CNN "LCSC"
+	1    8750 2150
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F7BFB17
-P 8850 2150
+P 8350 2150
 AR Path="/5F746CB5/5F7BFB17" Ref="R?"  Part="1" 
 AR Path="/5F7BFB17" Ref="R8"  Part="1" 
-F 0 "R8" V 8930 2150 50  0000 C CNN
-F 1 "10K" V 8850 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 2150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8850 2150 50  0001 C CNN
-F 4 "Yageo" H 8850 2150 50  0001 C CNN "MFR"
-F 5 "RC0805FR-0710KL" H 8850 2150 50  0001 C CNN "MPN"
-F 6 "0.10" H 8850 2150 50  0001 C CNN "Price"
-F 7 "C17414" H 8850 2150 50  0001 C CNN "LCSC"
-	1    8850 2150
+F 0 "R8" V 8430 2150 50  0000 C CNN
+F 1 "10K" V 8350 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8280 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8350 2150 50  0001 C CNN
+F 4 "Yageo" H 8350 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 8350 2150 50  0001 C CNN "MPN"
+F 6 "0.10" H 8350 2150 50  0001 C CNN "Price"
+F 7 "C17414" H 8350 2150 50  0001 C CNN "LCSC"
+	1    8350 2150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F7C00C8
-P 8450 2150
+P 7850 2150
 AR Path="/5F746CB5/5F7C00C8" Ref="R?"  Part="1" 
 AR Path="/5F7C00C8" Ref="R7"  Part="1" 
-F 0 "R7" V 8530 2150 50  0000 C CNN
-F 1 "10K" V 8450 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 8380 2150 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 8450 2150 50  0001 C CNN
-F 4 "Yageo" H 8450 2150 50  0001 C CNN "MFR"
-F 5 "RC0805FR-0710KL" H 8450 2150 50  0001 C CNN "MPN"
-F 6 "0.10" H 8450 2150 50  0001 C CNN "Price"
-F 7 "C17414" H 8450 2150 50  0001 C CNN "LCSC"
-	1    8450 2150
+F 0 "R7" V 7930 2150 50  0000 C CNN
+F 1 "10K" V 7850 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7780 2150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 7850 2150 50  0001 C CNN
+F 4 "Yageo" H 7850 2150 50  0001 C CNN "MFR"
+F 5 "RC0805FR-0710KL" H 7850 2150 50  0001 C CNN "MPN"
+F 6 "0.10" H 7850 2150 50  0001 C CNN "Price"
+F 7 "C17414" H 7850 2150 50  0001 C CNN "LCSC"
+	1    7850 2150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8600 2150 8700 2150
+	8000 2150 8100 2150
 Wire Wire Line
-	8300 2150 8200 2150
+	7700 2150 7600 2150
 Wire Wire Line
-	8200 2150 8200 2250
+	7600 2150 7600 2250
 Text Label 2100 7750 0    50   ~ 0
 PWM6
 $Comp
@@ -1894,4 +1881,17 @@ Wire Wire Line
 	5750 5950 5750 5750
 Wire Wire Line
 	5750 5750 5250 5750
+Wire Wire Line
+	8500 2150 8600 2150
+Wire Wire Line
+	7550 2000 8100 2000
+Wire Wire Line
+	8100 2000 8100 2150
+Connection ~ 8100 2150
+Wire Wire Line
+	8100 2150 8200 2150
+Wire Wire Line
+	8900 2150 9000 2150
+Wire Wire Line
+	9000 2150 9000 2050
 $EndSCHEMATC
